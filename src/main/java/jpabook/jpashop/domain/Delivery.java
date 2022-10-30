@@ -17,7 +17,7 @@ import javax.persistence.OneToOne;
  * 2022-10-16        men16       최초 생성
  */
 @Entity
-public class Delivery {
+public class Delivery extends BaseEntity {
 
     @Id @GeneratedValue
     private Long id;

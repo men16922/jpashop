@@ -16,7 +16,7 @@ import java.util.List;
  * 2022-10-16        men16       최초 생성
  */
 @Entity
-public class Category {
+public class Category extends BaseEntity {
 
     @Id
     @GeneratedValue
